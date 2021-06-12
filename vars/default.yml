@@ -1,0 +1,13 @@
+---
+# change if not in a vagrant provisioned vm
+app_user: "vagrant"
+# domain name
+http_host: "apache_basic_starter"
+# name of the configuration file apache will create
+http_conf: "apache_basic_starter.conf"
+# http port
+http_port: "8000"
+# disable the default apache landing page?
+disable_default: true
+# are we using a reverse proxy?
+reverse_proxy: true
